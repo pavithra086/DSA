@@ -1,0 +1,54 @@
+Learn about space and time complexity one of the most important part of the programming is knowing the complexity of the cod eyou are writing.
+Time Complexity
+Time complexity measures how the runtime of an algorithm changes as the size of the input data grows. It’s usually expressed using Big O notation, which describes the upper bound of the runtime.
+
+Common Time Complexities:
+
+O(1) – Constant Time
+
+The runtime doesn’t change with the size of the input.
+Example: Accessing an element in an array by index.
+O(log n) – Logarithmic Time
+
+The runtime grows logarithmically as the input size increases.
+Example: Binary search in a sorted array.
+O(n) – Linear Time
+
+The runtime grows linearly with the input size.
+Example: Iterating through a list.
+O(n log n) – Linearithmic Time
+
+The runtime grows linearly with the input size but also includes a logarithmic factor.
+Example: Merge sort and quicksort algorithms.
+O(n^2) – Quadratic Time
+
+The runtime grows quadratically with the input size.
+Example: Bubble sort or insertion sort algorithms.
+O(2^n) – Exponential Time
+
+The runtime grows exponentially with the input size.
+Example: Solving the traveling salesman problem using brute force.
+O(n!) – Factorial Time
+
+The runtime grows factorially with the input size.
+Example: Solving the traveling salesman problem with all permutations.
+Space Complexity
+Space complexity measures how the amount of memory used by an algorithm changes with the size of the input data. It’s also expressed using Big O notation.
+
+Common Space Complexities:
+
+O(1) – Constant Space
+
+The memory used doesn’t grow with the size of the input.
+Example: Variables used in a basic loop.
+O(n) – Linear Space
+
+The memory used grows linearly with the input size.
+Example: Storing elements of an array or list.
+O(n^2) – Quadratic Space
+
+The memory used grows quadratically with the input size.
+Example: A 2D matrix for storing pairwise distances between elements.     
+
+
+Youtube Resource : Algoprep Lecture 12
